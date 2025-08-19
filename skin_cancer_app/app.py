@@ -54,8 +54,13 @@ model = load_model()
 
 # App UI
 st.title("Skin Cancer Classification")
-st.write("Upload a skin lesion image to predict the type of skin cancer.")
+st.subheader("This app classifies skin lesions into different types of skin cancer.")
+st.write("This app uses a pre-trained ResNet model to classify skin lesions into one of the following categories:")
+for class_name in class_names:
+    st.write(f"- {class_name}")
+st.write('Disclaimer: This app is for educational purposes only and should not be used for medical diagnosis.')
 
+st.write("Upload a skin lesion image to predict the type of skin cancer.")
 uploaded_file = st.file_uploader("📷 Choose an image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:

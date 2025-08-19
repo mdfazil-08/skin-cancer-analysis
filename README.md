@@ -3,6 +3,8 @@
 ## Project Overview
 This project focuses on the analysis and classification of skin cancer using deep learning techniques. The goal is to accurately identify different types of skin cancer from dermatoscopic images, helping in early detection and diagnosis. The trained model achieved an accuracy of 85% on the test set, demonstrating strong performance in classifying skin cancer types.
 
+Demo app link : https://huggingface.co/spaces/mdfazil-08/skin-cancer-analysis
+
 ## Types of Skin Cancer
 The HAM10000 dataset includes several types of skin cancer lesions, such as:
 - **Melanoma**: A dangerous form of skin cancer that can spread rapidly.
