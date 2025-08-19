@@ -1,7 +1,7 @@
 # Skin Cancer Analysis
 
 ## Project Overview
-This project focuses on the analysis and classification of skin cancer using deep learning techniques. The goal is to accurately identify different types of skin cancer from dermatoscopic images, helping in early detection and diagnosis. The trained model achieved an Weighted F1 Score of 85% on the test set, demonstrating strong performance in classifying skin cancer types.
+This project focuses on the analysis and classification of skin cancer using deep learning techniques. The goal is to accurately identify different types of skin cancer from dermatoscopic images, helping in early detection and diagnosis. The trained model achieved an **Weighted F1 Score of 85%** on the test set, demonstrating strong performance in classifying skin cancer types.
 
 Demo app link : https://huggingface.co/spaces/mdfazil-08/skin-cancer-analysis
 
